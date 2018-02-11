@@ -1,0 +1,1 @@
+# Client framework for consuming JSONAPI APIs based on the JSON API standard (http://jsonapi.org/).
