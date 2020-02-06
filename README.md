@@ -1,11 +1,11 @@
 # JsonApi Client
 
-Client framework for consuming JSONAPI APIs based on the JSON API standard (http://jsonapi.org/)
+Client framework for consuming JSONAPI web services based on the [JSON API standard](http://jsonapi.org/)
 
 ### Usage
 
 #### Create HttpGet request with single response object
-```
+```c#
 Response<User[]> response = JsonApiConsumer.Get<User>(
     baseURI: ABSOLUTE_URL,
     path: RELATIVE_URI,
@@ -14,7 +14,7 @@ Response<User[]> response = JsonApiConsumer.Get<User>(
 ```
 
 #### Create HttpGet request with array response object
-```
+```c#
 Response<User> response = JsonApiConsumer.GetById<User>(
     id: "c833cbbf-7c81-4d30-b11a-88cf1c990b9c",
     baseURI: ABSOLUTE_URL,
@@ -24,7 +24,7 @@ Response<User> response = JsonApiConsumer.GetById<User>(
 ```
 
 #### Create HttpPost request
-```
+```c#
 var user = new User()
 {
     id = "c833cbbf-7c81-4d30-b11a-88cf1c990b9c";
@@ -40,7 +40,7 @@ Response<CreateUserResponse> response = JsonApiConsumer.Create<User, CreateUserR
 ```
 
 #### Post a file
-```
+```c#
 Response<PostFileResponse> response = JsonApiConsumer.PostFile<PostFileResponse>(
     fileName: "filename",
     data: new byte[],
@@ -50,7 +50,7 @@ Response<PostFileResponse> response = JsonApiConsumer.PostFile<PostFileResponse>
 ```
 
 #### Create HttpPut request
-```
+```c#
 var user = new User()
 {
     FirstName = "Oktay"; 
@@ -66,7 +66,7 @@ Response<UpdateUserResponse> response = JsonApiConsumer.Update<User, UpdateUserR
 ```
 
 #### Create HttpPatch request
-```
+```c#
 var user = new User()
 {
     FirstName = "CC"; 
@@ -81,7 +81,7 @@ Response<PatchUserResponse> response = JsonApiConsumer.Patch<User, PatchUserResp
 ```
 
 #### Create HttpDelete request
-```
+```c#
 Response<DeleteUserResponse> response = JsonApiConsumer.Delete<DeleteUserResponse>(
     id: "c833cbbf-7c81-4d30-b11a-88cf1c990b9c",
     baseURI: ABSOLUTE_URL,
@@ -90,7 +90,7 @@ Response<DeleteUserResponse> response = JsonApiConsumer.Delete<DeleteUserRespons
 ```
 
 #### Response class definition
-```
+```c#
 public class Response<T>
 {
 	public DocumentRoot<T> documentRoot { get; internal set; }
