@@ -23,6 +23,7 @@ namespace JsonApiConsumer
 
 		public static void HandleDeserializationError(object sender, ErrorEventArgs errorArgs)
 		{
+			var s = "test";
 			errorArgs.ErrorContext.Handled = true;
 		}
 
