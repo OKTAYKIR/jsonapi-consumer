@@ -36,7 +36,7 @@ namespace JsonApiConsumer
         #endregion
 
         #region Static methods
-        public static Response<TReqeust[]> Get<TReqeust>(string baseURI,
+        public statics Response<TReqeust[]> Get<TReqeust>(string baseURI,
 										                 string path,
                                                          Dictionary<string, string> query = null,
                                                          Dictionary<string, string> headers = null,
