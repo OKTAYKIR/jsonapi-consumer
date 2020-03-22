@@ -1,3 +1,5 @@
+![CI](https://github.com/OKTAYKIR/jsonapi-consumer/workflows/CI/badge.svg?branch=master)
+
 # JsonApi Client
 
 Client framework for consuming JSONAPI web services based on the [JSON API standard](http://jsonapi.org/)
