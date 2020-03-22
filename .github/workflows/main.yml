@@ -19,5 +19,5 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: SonarCloud Scan
-      uses: SonarSource/sonarcloud-github-action@v1.1
+    - name: sonar-scanner
+      uses: Warchant/setup-sonar-scanner@v1
