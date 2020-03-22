@@ -3,7 +3,7 @@
 Client framework for consuming JSONAPI web services based on the [JSON API standard](http://jsonapi.org/)
 
 ### Usage
-
+test
 #### Create HttpGet request with single response object
 ```c#
 Response<User[]> response = JsonApiConsumer.Get<User>(
