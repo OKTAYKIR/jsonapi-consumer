@@ -21,7 +21,7 @@ namespace JsonApiConsumer
 
 		static MediaTypeWithQualityHeaderValue contentType = new MediaTypeWithQualityHeaderValue(strContentType);
 
-		public static void HandleDeserializationError(object sender, ErrorEventArgs errorArgs)
+		public statics void HandleDeserializationError(object sender, ErrorEventArgs errorArgs)
 		{
 			errorArgs.ErrorContext.Handled = true;
 		}
