@@ -12,7 +12,7 @@ jsonapi-consumer is available on [NuGet](https://www.nuget.org/packages/jsonapi-
 dotnet add package jsonapi-consumer
 ```
 
-### Usage
+## Usage
 
 #### Create HttpGet request with single response object
 ```c#
@@ -110,7 +110,7 @@ public class Response<T>
 }
 ```
 
-### Contributing
+## Contributing
 1. Fork it ( https://github.com/OKTAYKIR/jsonapi-consumer/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
