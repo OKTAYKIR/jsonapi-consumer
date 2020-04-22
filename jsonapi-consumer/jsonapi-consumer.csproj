@@ -1,6 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard1.6</TargetFramework>
+    <Authors>Oktay Kır</Authors>
+    <Description>Client framework for consuming JSONAPI services</Description>
+    <PackageProjectUrl>https://github.com/OKTAYKIR/jsonapi-consumer</PackageProjectUrl>
+    <PackageTags>jsonapi json-api client-library jsonapiclient json</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/OKTAYKIR/jsonapi-consumer</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <WarningLevel>0</WarningLevel>
