@@ -1,8 +1,16 @@
-![CI](https://github.com/OKTAYKIR/jsonapi-consumer/workflows/CI/badge.svg?branch=master)
-
 # JsonApi Client
+![Build Status](https://github.com/OKTAYKIR/jsonapi-consumer/workflows/CI/badge.svg?branch=master) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
+[![nuget](https://img.shields.io/nuget/v/jsonapi-consumer)](https://www.nuget.org/packages/jsonapi-consumer/)
 
 Client framework for consuming JSONAPI web services based on the [JSON API standard](http://jsonapi.org/)
+
+## Installation
+jsonapi-consumer is available on [NuGet](https://www.nuget.org/packages/jsonapi-consumer/). 
+
+```sh
+dotnet add package jsonapi-consumer
+```
 
 ### Usage
 
