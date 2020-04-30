@@ -5,7 +5,7 @@
 
 Client framework for consuming JSONAPI web services based on the [JSON API standard](http://jsonapi.org/)
 
-## Installation
+## :package: Installation
 jsonapi-consumer is available on [NuGet](https://www.nuget.org/packages/jsonapi-consumer/). 
 
 ```sh
