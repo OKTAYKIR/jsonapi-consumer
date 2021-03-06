@@ -1,4 +1,6 @@
 # JsonApi Client
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/OKTAYKIR/jsonapi-consumer)
+![GitHub issues](https://img.shields.io/github/issues/OKTAYKIR/jsonapi-consumer)
 ![Build Status](https://github.com/OKTAYKIR/jsonapi-consumer/workflows/CI/badge.svg?branch=master) 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](#contributing)
 [![nuget](https://img.shields.io/nuget/v/jsonapi-consumer)](https://www.nuget.org/packages/jsonapi-consumer/)
@@ -109,6 +111,9 @@ public class Response<T>
 	public bool IsSuccess { get; internal set; }
 }
 ```
+
+## ✨ Contributors
+![GitHub Contributors Image](https://contrib.rocks/image?repo=OKTAYKIR/jsonapi-consumer)
 
 ## 🤝 Contributing
 1. Fork it ( https://github.com/OKTAYKIR/jsonapi-consumer/fork )
