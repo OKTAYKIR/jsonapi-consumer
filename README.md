@@ -16,7 +16,7 @@ dotnet add package jsonapi-consumer
 
 ## 🚀 Usage
 
-#### Create HttpGet request with single response object
+#### Create HttpGet request with array response object
 ```c#
 Response<User[]> response = JsonApiConsumer.Get<User>(
     baseURI: ABSOLUTE_URL,
@@ -24,8 +24,7 @@ Response<User[]> response = JsonApiConsumer.Get<User>(
     query: new Dictionary<string, string>() { { "FirstName", "Oktay" }, { "LastName", "Kır" } },
     headers: new Dictionary<string, string>() { { HEADER_API_KEY, HEADER_API_KEY_VALUE } } );
 ```
-
-#### Create HttpGet request with array response object
+#### Create HttpGet request with single response object
 ```c#
 Response<User> response = JsonApiConsumer.GetById<User>(
     id: "c833cbbf-7c81-4d30-b11a-88cf1c990b9c",
